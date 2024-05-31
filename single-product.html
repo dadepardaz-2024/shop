@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./bootstrap.rtl.css" />
+    <link rel="stylesheet" href="./bootstrap-icon.css" />
+    <link rel="stylesheet" href="./owl.carousel.css" />
+    <link rel="stylesheet" href="./owl.theme.default.css" />
+    <link rel="stylesheet" href="./jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>صفحه محصول</title>
+  </head>
+
+  <body>
+    <div class="loading-page">
+      <div class="loading-circle"></div>
+    </div>
+    <div id="responsive-menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="responsive-menu-container w-100 h-100 bg-white p-4">
+      <ul>
+        <li><a href="index.html">خانه</a></li>
+        <li><a href="shop.html">فروشگاه</a></li>
+        <li>
+          <a href="#F">سینک</a>
+          <ul>
+            <li><a href="">خانه</a></li>
+            <li><a href="">فروشگاه</a></li>
+            <li>
+              <a href="">سینک</a>
+              <ul>
+                <li><a href="">خانه</a></li>
+                <li><a href="">فروشگاه</a></li>
+                <li><a href="">سینک</a></li>
+                <li><a href="">تماس</a></li>
+              </ul>
+            </li>
+            <li><a href="">تماس</a></li>
+          </ul>
+        </li>
+        <li><a href="">تماس</a></li>
+      </ul>
+    </div>
+    <header class="mb-4">
+      <div class="top-menu position-relative">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-12 text-center">
+              <div class="logo-box"></div>
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+              <div class="main-menu">
+                <ul>
+                  <li><a href="">خانه</a></li>
+                  <li><a href="">فروشگاه</a></li>
+                  <li>
+                    <a href="">سینک</a>
+                    <ul>
+                      <li><a href="">خانه</a></li>
+                      <li><a href="">فروشگاه</a></li>
+                      <li>
+                        <a href="">سینک</a>
+                        <ul>
+                          <li><a href="">خانه</a></li>
+                          <li><a href="">فروشگاه</a></li>
+                          <li><a href="">سینک</a></li>
+                          <li><a href="">تماس</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="">تماس</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">تماس</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12">
+              <div class="top-access">
+                <ul class="text-center p-0">
+                  <li
+                    class="d-inline-block"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="سبد خرید"
+                  >
+                    <a href="#" class="text-light d-inline-block"
+                      ><i class="bi bi-bag"></i
+                    ></a>
+                  </li>
+                  <li
+                    class="d-inline-block"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="حساب کاربری"
+                  >
+                    <a href="#" class="text-light d-inline-block"
+                      ><i class="bi bi-person"></i
+                    ></a>
+                  </li>
+                  <li
+                    class="d-inline-block"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="علاقه مندی ها"
+                  >
+                    <a href="#" class="text-light d-inline-block"
+                      ><i class="bi bi-heart"></i
+                    ></a>
+                  </li>
+                  <li
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    class="d-inline-block"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="جستجو"
+                  >
+                    <a href="#" class="text-light d-inline-block"
+                      ><i class="bi bi-search"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <form action="">
+                <input type="text" placeholder="جستجو کنید ..." />
+                <button><i class="bi bi-search"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid px-0">
+        <div class="slider-box">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active d-none d-sm-block"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+                class="d-none d-sm-block"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active position-relative">
+                <img src="./slider1.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>از تولید به مصرف</h5>
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item position-relative">
+                <img src="./slider1.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>با بالاترین کیفیت</h5>
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev d-none d-md-block"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next d-none d-md-block"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="page-content">
+          <div class="row">
+            <div class="col-lg-5 col-md-6">
+              <div class="product-img bg-white p-3 rounded mb-4 mb-md-0">
+                <figure class="mb-2">
+                  <img
+                    src="./Dishwasher-model-30-809x491.jpg"
+                    alt=""
+                    class="d-table mx-auto"
+                    id="image-zoom"
+                    data-zoom-image="./Dishwasher-model-30-809x491.jpg"
+                    style="max-height: 350px"
+                  />
+                </figure>
+                <hr class="mt-4" />
+                <div class="product-gallery owl-carousel owl-theme pt-2">
+                  <div class="item">
+                    <a
+                      href="./Dishwasher-model-31.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <figure class="position-relative p-1">
+                        <img src="./Dishwasher-model-31.jpg" alt="" />
+                        <figcaption
+                          class="position-absolute text-center w-100 h-100 rounded text-light"
+                        >
+                          <i class="bi bi-zoom-in"></i>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="item">
+                    <a href="./slider2.jpg" data-fancybox="gallery">
+                      <figure>
+                        <img src="./slider2.jpg" alt="" />
+                        <figcaption
+                          class="position-absolute text-center w-100 h-100 rounded text-light"
+                        >
+                          <i class="bi bi-zoom-in"></i>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="item">
+                    <a
+                      href="./Dishwasher-model-30-809x491.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <figure>
+                        <img src="./Dishwasher-model-30-809x491.jpg" alt="" />
+                        <figcaption
+                          class="position-absolute text-center w-100 h-100 rounded text-light"
+                        >
+                          <i class="bi bi-zoom-in"></i>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="item">
+                    <a
+                      href="./Dishwasher-model-30-809x491.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <figure>
+                        <img src="./Dishwasher-model-31.jpg" alt="" />
+                        <figcaption
+                          class="position-absolute text-center w-100 h-100 rounded text-light"
+                        >
+                          <i class="bi bi-zoom-in"></i>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-6">
+              <div class="product-detail p-3">
+                <h1 class="pb-3 m-0">سینک گرانیتی طرح l-440</h1>
+                <div class="product-raiting pb-3 mb-3">
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-dark"></i>
+                  <span class="aspect">12 دیدگاه ثبت شده</span>
+                </div>
+                <div class="product-price mb-3">
+                  <span>1,900,000 تومان</span>
+                  <del>2,200,000 تومان</del>
+                </div>
+                <div class="color-picker-product mt-3 d-inline-block w-100">
+                  <label for="white_color" class="bg-white"></label>
+                  <input type="radio" id="white_color" />
+                  <label for="green_color" class="bg-success"></label>
+                  <input type="radio" id="green_color" />
+                  <label for="yellow_color" class="bg-warning"></label>
+                  <input type="radio" id="yellow_color" />
+                  <label for="dark_color" class="bg-dark"></label>
+                  <input type="radio" id="dark_color" />
+                </div>
+                <div
+                  class="add-to-cord d-inline-block bg-white mb-3 p-4 border my-4"
+                >
+                  <input type="number" min="1" value="1" />
+                  <button>افزودن به سبد خرید</button>
+                </div>
+                <div class="add-to-wish">
+                  <span
+                    ><i class="bi bi-heart"></i>&nbsp; افزودن به علاقه
+                    مندی</span
+                  >
+                </div>
+                <div class="cat-sku mb-3 mt-4">
+                  <span class="d-inline-block pe-4">دسته : سینک گرانیتی</span>
+                  <span>شناسه محصول : #k-709</span>
+                </div>
+                <div class="product-excerpt mt-3 border-top pt-3">
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                    تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                    کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و
+                    آینده شناخت فراوان جامعه و متخصصان را می طلبد لورم ایپسوم
+                    متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                    از طراحان گرافیک است.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row single-product-reverse">
+            <div class="col-lg-5 col-md-6">
+              <div class="product-review-form bg-white rounded p-3 mt-3">
+                <form action="">
+                  <div class="set-rate d-flex">
+                    <span class="d-inline-block p-3">امتیاز: </span>
+                    <div class="box-rate text-end">
+                      <input type="radio" id="5" value="5" name="rate" />
+                      <label for="5"></label>
+                      <input type="radio" id="4" value="4" name="rate" />
+                      <label for="4"></label>
+                      <input type="radio" id="3" value="3" name="rate" />
+                      <label for="3"></label>
+                      <input type="radio" id="2" value="2" name="rate" />
+                      <label for="2"></label>
+                      <input type="radio" id="1" value="1" name="rate" />
+                      <label for="1"></label>
+                    </div>
+                  </div>
+                  <input type="text" placeholder=" نام شما : (الزامی است!)" />
+                  <input
+                    type="email"
+                    placeholder=" ایمیل شما : (الزامی است !)"
+                  />
+                  <textarea placeholder="نظر شما :"></textarea>
+                  <button>ارسال دیدگاه</button>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-6">
+              <div class="product-content bg-white rounded p-3 mt-3">
+                <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="pills-home-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-home"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-home"
+                      aria-selected="true"
+                    >
+                      جزئیات محصول
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="pills-profile-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-profile"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-profile"
+                      aria-selected="false"
+                    >
+                      ویژگی ها
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="pills-contact-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-contact"
+                      aria-selected="false"
+                    >
+                      نظرات
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div
+                    class="tab-pane fade show active p-3"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                  >
+                    <h4>سینک گرانیتی طرح l-440</h4>
+                    <p>
+                      ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                      با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است ا تولید
+                      سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                      است. ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
+                      شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
+                      بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                      درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می
+                      طلبد لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ و با استفاده از طراحان گرافیک است.
+                    </p>
+
+                    <p>
+                      راحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در
+                      ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                      مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                      می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                      شناخت فراوان جامعه و متخصصان را می طلبد لورم ایپسوم متن
+                      ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                      طراحان گرافیک است.
+                    </p>
+
+                    <p>
+                      راحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در
+                      ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                      مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                      می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                      شناخت فراوان جامعه و متخصصان را می طلبد لورم ایپسوم متن
+                      ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                      طراحان گرافیک است.
+                    </p>
+                    <p>
+                      ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                      با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است ا تولید
+                      سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                      است. ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
+                      شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
+                      بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                      درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می
+                      طلبد لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ و با استفاده از طراحان گرافیک است. ا تولید سادگی
+                      نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. ورم
+                      ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                      استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
+                      و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                      تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                      کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال
+                      و آینده شناخت فراوان جامعه و متخصصان را می طلبد لورم
+                      ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                      استفاده از طراحان گرافیک است. ا تولید سادگی نامفهوم از
+                      صنعت چاپ و با استفاده از طراحان گرافیک است. ورم ایپسوم متن
+                      ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                      طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در
+                      ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                      مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                      می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                      شناخت فراوان جامعه و متخصصان را می طلبد لورم ایپسوم متن
+                      ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                      طراحان گرافیک است.
+                    </p>
+                  </div>
+                  <div
+                    class="tab-pane fade p-3"
+                    id="pills-profile"
+                    role="tabpanel"
+                    aria-labelledby="pills-profile-tab"
+                  >
+                    <div class="table-responsive">
+                      <table class="table text-center mt-2">
+                        <tr>
+                          <td>وزن</td>
+                          <td>2.6 کیلوگرم</td>
+                        </tr>
+                        <tr>
+                          <td>رنگ</td>
+                          <td>سفید ، خاکستری ، سفید</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade p-3"
+                    id="pills-contact"
+                    role="tabpanel"
+                    aria-labelledby="pills-contact-tab"
+                  >
+                    <div class="review-item-box border-bottom pb-3 mt-3">
+                      <div class="review-parent mb-3">
+                        <div class="row">
+                          <div class="col-2">
+                            <div class="review-avatar">
+                              <img
+                                src="./profile_default.3604fc6.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-10">
+                            <span class="d-inline-block pe-5">آرمان</span>
+                            <span class="d-inline-block">
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-dark"></i>
+                            </span>
+                            <p>
+                              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                              صنعت چاپ و با استفاده از طراحان گرافیک است.
+                              چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                              سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                              مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                              کاربردی می باشد. کتابهای زیادی در شصت و سه درصد
+                              گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را
+                              می طلبد
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="review-parent ms-0 ms-sm-5 mb-3 border p-3">
+                        <div class="row">
+                          <div class="col-2">
+                            <div class="review-avatar">
+                              <img
+                                src="./profile_default.3604fc6.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-10">
+                            <span class="d-inline-block pe-5">آرمان</span>
+                            <span class="d-inline-block">
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-dark"></i>
+                            </span>
+                            <p>
+                              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                              صنعت چاپ و با استفاده از طراحان گرافیک است.
+                              چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                              سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                              مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                              کاربردی می باشد. کتابهای زیادی در شصت و سه درصد
+                              گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را
+                              می طلبد
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="review-item-box border-bottom pb-3 mt-3">
+                      <div class="review-parent mb-3">
+                        <div class="row">
+                          <div class="col-2">
+                            <div class="review-avatar">
+                              <img
+                                src="./profile_default.3604fc6.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-10">
+                            <span class="d-inline-block pe-5">آرمان</span>
+                            <span class="d-inline-block">
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-dark"></i>
+                            </span>
+                            <p>
+                              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                              صنعت چاپ و با استفاده از طراحان گرافیک است.
+                              چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                              سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                              مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                              کاربردی می باشد. کتابهای زیادی در شصت و سه درصد
+                              گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را
+                              می طلبد
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="review-parent ms-0 ms-sm-5 mb-3 border p-3">
+                        <div class="row">
+                          <div class="col-2">
+                            <div class="review-avatar">
+                              <img
+                                src="./profile_default.3604fc6.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-10">
+                            <span class="d-inline-block pe-5">آرمان</span>
+                            <span class="d-inline-block">
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-dark"></i>
+                            </span>
+                            <p>
+                              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                              صنعت چاپ و با استفاده از طراحان گرافیک است.
+                              چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                              سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                              مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                              کاربردی می باشد. کتابهای زیادی در شصت و سه درصد
+                              گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را
+                              می طلبد
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="review-item-box border-bottom pb-3 mt-3">
+                      <div class="review-parent mb-3">
+                        <div class="row">
+                          <div class="col-2">
+                            <div class="review-avatar">
+                              <img
+                                src="./profile_default.3604fc6.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-10">
+                            <span class="d-inline-block pe-5">آرمان</span>
+                            <span class="d-inline-block">
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-dark"></i>
+                            </span>
+                            <p>
+                              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                              صنعت چاپ و با استفاده از طراحان گرافیک است.
+                              چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                              سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                              مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                              کاربردی می باشد. کتابهای زیادی در شصت و سه درصد
+                              گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را
+                              می طلبد
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="review-parent ms-0 ms-sm-5 mb-3 border p-3">
+                        <div class="row">
+                          <div class="col-2">
+                            <div class="review-avatar">
+                              <img
+                                src="./profile_default.3604fc6.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-10">
+                            <span class="d-inline-block pe-5">آرمان</span>
+                            <span class="d-inline-block">
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-warning"></i>
+                              <i class="bi bi-star text-dark"></i>
+                            </span>
+                            <p>
+                              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                              صنعت چاپ و با استفاده از طراحان گرافیک است.
+                              چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                              سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                              مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                              کاربردی می باشد. کتابهای زیادی در شصت و سه درصد
+                              گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را
+                              می طلبد
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="d-inline-block w-100 mt-3 mt-md-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="site-title-box">
+              <span class="d-block">محصولات مرتبط با</span>
+              <span class="d-inline-block ps-3">سینک گرانیتی طرح l-440</span>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="cat-slider-item owl-carousel owl-theme">
+              <div
+                class="product-item product-item-border p-3 bg-white rounded my-3"
+              >
+                <figure
+                  class="w-100 position-relative overflow-hidden border-bottom"
+                >
+                  <img
+                    src="./Dishwasher-model-30-809x491.jpg"
+                    alt=""
+                    class="d-table mx-auto"
+                  />
+                  <figcaption class="position-absolute w-100 h-100 text-center">
+                    <ul class="p-0">
+                      <li
+                        class="d-inline-block"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="مشاهده محصول"
+                      >
+                        <a href="" class="d-inline-block text-center"
+                          ><i class="bi bi-eye text-center text-center"></i
+                        ></a>
+                      </li>
+                      <li
+                        class="d-inline-block"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="افزودن به علاقه مندی"
+                      >
+                        <a href="" class="d-inline-block text-center"
+                          ><i class="bi bi-heart"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </figcaption>
+                </figure>
+                <h5 class="m-0 py-3 text-center overflow-hidden">
+                  سینک گرانیتی تست مدل k-645
+                </h5>
+                <p class="text-center overflow-hidden mt-2">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است
+                </p>
+                <div class="product-rate text-center mb-2">
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-dark"></i>
+                </div>
+                <div class="product-price d-flex">
+                  <span class="d-inline-block w-100 text-start"
+                    >2,200,000 تومان</span
+                  >
+                  <del class="d-inline-block w-100 text-end"
+                    >2,450,000 تومان</del
+                  >
+                </div>
+              </div>
+              <div
+                class="product-item product-item-border p-3 bg-white rounded my-3"
+              >
+                <figure
+                  class="w-100 position-relative overflow-hidden border-bottom"
+                >
+                  <img src="./slider1.jpg" alt="" class="d-table mx-auto" />
+                  <figcaption class="position-absolute w-100 h-100 text-center">
+                    <ul class="p-0">
+                      <li
+                        class="d-inline-block"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="مشاهده محصول"
+                      >
+                        <a href="" class="d-inline-block text-center"
+                          ><i class="bi bi-eye text-center text-center"></i
+                        ></a>
+                      </li>
+                      <li
+                        class="d-inline-block"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="افزودن به علاقه مندی"
+                      >
+                        <a href="" class="d-inline-block text-center"
+                          ><i class="bi bi-heart"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </figcaption>
+                </figure>
+                <h5 class="m-0 py-3 text-center overflow-hidden">
+                  سینک گرانیتی تست مدل k-645
+                </h5>
+                <p class="text-center overflow-hidden mt-2">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است
+                </p>
+                <div class="product-rate text-center mb-2">
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-dark"></i>
+                </div>
+                <div class="product-price d-flex">
+                  <span class="d-inline-block w-100 text-start"
+                    >2,200,000 تومان</span
+                  >
+                  <del class="d-inline-block w-100 text-end"
+                    >2,450,000 تومان</del
+                  >
+                </div>
+              </div>
+              <div
+                class="product-item product-item-border p-3 bg-white rounded my-3"
+              >
+                <figure
+                  class="w-100 position-relative overflow-hidden border-bottom"
+                >
+                  <img
+                    src="./Dishwasher-model-31.jpg"
+                    alt=""
+                    class="d-table mx-auto"
+                  />
+                  <figcaption class="position-absolute w-100 h-100 text-center">
+                    <ul class="p-0">
+                      <li
+                        class="d-inline-block"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="مشاهده محصول"
+                      >
+                        <a href="" class="d-inline-block text-center"
+                          ><i class="bi bi-eye text-center text-center"></i
+                        ></a>
+                      </li>
+                      <li
+                        class="d-inline-block"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="افزودن به علاقه مندی"
+                      >
+                        <a href="" class="d-inline-block text-center"
+                          ><i class="bi bi-heart"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </figcaption>
+                </figure>
+                <h5 class="m-0 py-3 text-center overflow-hidden">
+                  سینک گرانیتی تست مدل k-645
+                </h5>
+                <p class="text-center overflow-hidden mt-2">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است
+                </p>
+                <div class="product-rate text-center mb-2">
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-dark"></i>
+                </div>
+                <div class="product-price d-flex">
+                  <span class="d-inline-block w-100 text-start"
+                    >2,200,000 تومان</span
+                  >
+                  <del class="d-inline-block w-100 text-end"
+                    >2,450,000 تومان</del
+                  >
+                </div>
+              </div>
+              <div
+                class="product-item product-item-border p-3 bg-white rounded my-3"
+              >
+                <figure
+                  class="w-100 position-relative overflow-hidden border-bottom"
+                >
+                  <img src="./slider2.jpg" alt="" class="d-table mx-auto" />
+                  <figcaption class="position-absolute w-100 h-100 text-center">
+                    <ul class="p-0">
+                      <li
+                        class="d-inline-block"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="مشاهده محصول"
+                      >
+                        <a href="" class="d-inline-block text-center"
+                          ><i class="bi bi-eye text-center text-center"></i
+                        ></a>
+                      </li>
+                      <li
+                        class="d-inline-block"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="افزودن به علاقه مندی"
+                      >
+                        <a href="" class="d-inline-block text-center"
+                          ><i class="bi bi-heart"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </figcaption>
+                </figure>
+                <h5 class="m-0 py-3 text-center overflow-hidden">
+                  سینک گرانیتی تست مدل k-645
+                </h5>
+                <p class="text-center overflow-hidden mt-2">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است
+                </p>
+                <div class="product-rate text-center mb-2">
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-dark"></i>
+                </div>
+                <div class="product-price d-flex">
+                  <span class="d-inline-block w-100 text-start"
+                    >2,200,000 تومان</span
+                  >
+                  <del class="d-inline-block w-100 text-end"
+                    >2,450,000 تومان</del
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-2 mt-5 position-relative">
+      <span class="scrooltop position-absolute"></span>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-menu">
+              <ul class="p-0 my-3 text-center">
+                <li><a href="#">مشتریان</a></li>
+                <li><a href="#">قوانین</a></li>
+                <li><a href="#">خرید کالا</a></li>
+                <li><a href="#">درباره ما</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-box">
+              <span class="title py-3 d-block position-relative pb-4 text-info"
+                >تماس با ما</span
+              >
+              <ul class="p-0">
+                <li class="d-block w-100 py-2">
+                  <span><i class="bi bi-phone"></i>&nbsp; 9417 757 0936</span>
+                </li>
+                <li class="d-block w-100 py-2">
+                  <span
+                    ><i class="bi bi-geo-alt"></i>&nbsp; قائمشهر , میدان امام ,
+                    کوچه , اتحاد , پلاک 1 , آموزشگاه داده کاو وب
+                  </span>
+                </li>
+                <li class="d-block w-100 py-2">
+                  <span
+                    ><i class="bi bi-envelope-fill"></i>&nbsp;
+                    armanhassanzadeh23@gmail.com</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-box text-center">
+              <span
+                class="title title-center py-3 d-block position-relative pb-4"
+                >ما را دنبال کنید</span
+              >
+              <ul class="p-0 social-ul">
+                <li class="d-inline-block m-1">
+                  <a href="#" class="d-inline-block p-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                </li>
+                <li class="d-inline-block m-1">
+                  <a href="#" class="d-inline-block p-2"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                </li>
+                <li class="d-inline-block m-1">
+                  <a href="#" class="d-inline-block p-2"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-box">
+              <span class="title py-3 d-block position-relative pb-4 text-info"
+                >فروشگاه فروش سینک آرمان</span
+              >
+              <ul class="p-0">
+                <li class="d-block w-100 py-2">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و
+                  آینده شناخت فراوان جامعه و متخصصان را می طلبد
+                </li>
+                <li class="d-block w-100 py-2">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./jqury.js"></script>
+    <script src="./popper.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script src="./owl.carousel.min.js"></script>
+    <script src="./jquery.simple.timer.js"></script>
+    <script src="./jquery.elevatezoom.js"></script>
+    <script src="./jquery.fancybox.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

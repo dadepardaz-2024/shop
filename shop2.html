@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./bootstrap.rtl.css" />
+    <link rel="stylesheet" href="./bootstrap-icon.css" />
+    <link rel="stylesheet" href="./owl.carousel.css" />
+    <link rel="stylesheet" href="./owl.theme.default.css" />
+    <link rel="stylesheet" href="./jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>دسته محصول</title>
+  </head>
+
+  <body>
+    <div class="loading-page">
+      <div class="loading-circle"></div>
+    </div>
+    <div id="responsive-menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="responsive-menu-container w-100 h-100 bg-white p-4">
+      <ul>
+        <li><a href="index.html">خانه</a></li>
+        <li><a href="shop.html">فروشگاه</a></li>
+        <li>
+          <a href="#F">سینک</a>
+          <ul>
+            <li><a href="">خانه</a></li>
+            <li><a href="">فروشگاه</a></li>
+            <li>
+              <a href="">سینک</a>
+              <ul>
+                <li><a href="">خانه</a></li>
+                <li><a href="">فروشگاه</a></li>
+                <li><a href="">سینک</a></li>
+                <li><a href="">تماس</a></li>
+              </ul>
+            </li>
+            <li><a href="">تماس</a></li>
+          </ul>
+        </li>
+        <li><a href="">تماس</a></li>
+      </ul>
+    </div>
+    <header class="mb-4">
+      <div class="top-menu position-relative">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-12 text-center">
+              <div class="logo-box"></div>
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+              <div class="main-menu">
+                <ul>
+                  <li><a href="">خانه</a></li>
+                  <li><a href="">فروشگاه</a></li>
+                  <li>
+                    <a href="">سینک</a>
+                    <ul>
+                      <li><a href="">خانه</a></li>
+                      <li><a href="">فروشگاه</a></li>
+                      <li>
+                        <a href="">سینک</a>
+                        <ul>
+                          <li><a href="">خانه</a></li>
+                          <li><a href="">فروشگاه</a></li>
+                          <li><a href="">سینک</a></li>
+                          <li><a href="">تماس</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="">تماس</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">تماس</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12">
+              <div class="top-access">
+                <ul class="text-center p-0">
+                  <li
+                    class="d-inline-block"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="سبد خرید"
+                  >
+                    <a href="#" class="text-light d-inline-block"
+                      ><i class="bi bi-bag"></i
+                    ></a>
+                  </li>
+                  <li
+                    class="d-inline-block"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="حساب کاربری"
+                  >
+                    <a href="#" class="text-light d-inline-block"
+                      ><i class="bi bi-person"></i
+                    ></a>
+                  </li>
+                  <li
+                    class="d-inline-block"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="علاقه مندی ها"
+                  >
+                    <a href="#" class="text-light d-inline-block"
+                      ><i class="bi bi-heart"></i
+                    ></a>
+                  </li>
+                  <li
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    class="d-inline-block"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="جستجو"
+                  >
+                    <a href="#" class="text-light d-inline-block"
+                      ><i class="bi bi-search"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <form action="">
+                <input type="text" placeholder="جستجو کنید ..." />
+                <button><i class="bi bi-search"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid px-0">
+        <div class="slider-box">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active d-none d-sm-block"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+                class="d-none d-sm-block"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active position-relative">
+                <img src="./slider1.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>از تولید به مصرف</h5>
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item position-relative">
+                <img src="./slider1.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>با بالاترین کیفیت</h5>
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev d-none d-md-block"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next d-none d-md-block"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-9 col-md-8 mb-3 mb-md-0">
+            <div class="bg-white p-3 rounded">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div
+                    class="product-item product-item-border p-3 bg-white rounded my-3"
+                  >
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <figure
+                          class="w-100 position-relative overflow-hidden mb-3 mb-sm-0"
+                        >
+                          <img
+                            src="./Dishwasher-model-30-809x491.jpg"
+                            alt=""
+                            class="d-table mx-auto"
+                          />
+                          <figcaption
+                            class="position-absolute w-100 h-100 text-center"
+                          >
+                            <ul class="p-0">
+                              <li
+                                class="d-inline-block"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="right"
+                                title="مشاهده محصول"
+                              >
+                                <a href="" class="d-inline-block text-center"
+                                  ><i
+                                    class="bi bi-eye text-center text-center"
+                                  ></i
+                                ></a>
+                              </li>
+                              <li
+                                class="d-inline-block"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="right"
+                                title="افزودن به علاقه مندی"
+                              >
+                                <a href="" class="d-inline-block text-center"
+                                  ><i class="bi bi-heart"></i
+                                ></a>
+                              </li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="col-sm-6">
+                        <a href="#">
+                          <h5
+                            class="m-0 py-3 py-sm-5 text-center overflow-hidden"
+                          >
+                            سینک گرانیتی تست مدل k-645
+                          </h5>
+                          <p class="text-center overflow-hidden mt-2">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
+                            و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                            لازم است
+                          </p>
+                          <div class="product-rate text-center mb-2">
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-dark"></i>
+                          </div>
+                          <div class="product-price d-flex d-md-block">
+                            <span
+                              class="d-inline-block w-100 text-start text-dark py-0 py-md-2 text-md-center"
+                              >2,200,000 تومان</span
+                            >
+                            <del
+                              class="d-inline-block w-100 text-end text-dark text-md-start py-0 py-md-2 text-md-center"
+                              >2,450,000 تومان</del
+                            >
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div
+                    class="product-item product-item-border p-3 bg-white rounded my-3"
+                  >
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <figure
+                          class="w-100 position-relative overflow-hidden mb-3 mb-sm-0"
+                        >
+                          <img
+                            src="./Dishwasher-model-30-809x491.jpg"
+                            alt=""
+                            class="d-table mx-auto"
+                          />
+                          <figcaption
+                            class="position-absolute w-100 h-100 text-center"
+                          >
+                            <ul class="p-0">
+                              <li
+                                class="d-inline-block"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="right"
+                                title="مشاهده محصول"
+                              >
+                                <a href="" class="d-inline-block text-center"
+                                  ><i
+                                    class="bi bi-eye text-center text-center"
+                                  ></i
+                                ></a>
+                              </li>
+                              <li
+                                class="d-inline-block"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="right"
+                                title="افزودن به علاقه مندی"
+                              >
+                                <a href="" class="d-inline-block text-center"
+                                  ><i class="bi bi-heart"></i
+                                ></a>
+                              </li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="col-sm-6">
+                        <a href="#">
+                          <h5
+                            class="m-0 py-3 py-sm-5 text-center overflow-hidden"
+                          >
+                            سینک گرانیتی تست مدل k-645
+                          </h5>
+                          <p class="text-center overflow-hidden mt-2">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
+                            و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                            لازم است
+                          </p>
+                          <div class="product-rate text-center mb-2">
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-dark"></i>
+                          </div>
+                          <div class="product-price d-flex d-md-block">
+                            <span
+                              class="d-inline-block w-100 text-start text-dark py-0 py-md-2 text-md-center"
+                              >2,200,000 تومان</span
+                            >
+                            <del
+                              class="d-inline-block w-100 text-end text-dark text-md-start py-0 py-md-2 text-md-center"
+                              >2,450,000 تومان</del
+                            >
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="pagination-box my-3">
+                    <span class="current">1</span>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <aside>
+              <div class="sid-bar bg-white p-3 mb-3">
+                <span
+                  class="title d-block pb-3 mb-3 border-bottom position-relative"
+                  >دسته محجصولات</span
+                >
+                <ul>
+                  <li><a href="#">سینک گرانیتی</a></li>
+                  <li><a href="#">روشویی گرانیتی</a></li>
+                  <li><a href="#">سینک اکلیلی</a></li>
+                  <li><a href="#">روشویی اکلیلی</a></li>
+                </ul>
+                <div class="search-blog mt-5">
+                  <form action="">
+                    <input
+                      type="text"
+                      placeholder="جستجو محصول ..."
+                      class="m-0"
+                    />
+                    <button><i class="bi bi-search"></i></button>
+                  </form>
+                </div>
+              </div>
+              <div class="sid-bar bg-white p-3">
+                <span
+                  class="title d-block pb-3 mb-3 border-bottom position-relative"
+                  >فیلتر بر اساس نوع</span
+                >
+                <div class="product-filter-sidebar">
+                  <form action="">
+                    <div class="form-check my-3">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
+                      <label class="form-check-label" for="flexCheckDefault">
+                        نوع تک لگن
+                      </label>
+                    </div>
+                    <div class="form-check my-3">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckChecked"
+                        checked
+                      />
+                      <label class="form-check-label" for="flexCheckChecked">
+                        نوع دو لگن
+                      </label>
+                    </div>
+                    <div class="form-check my-3">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckChecked"
+                        checked
+                      />
+                      <label class="form-check-label" for="flexCheckChecked">
+                        یک لگن و نیم
+                      </label>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-2 mt-5 position-relative">
+      <span class="scrooltop position-absolute"></span>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-menu">
+              <ul class="p-0 my-3 text-center">
+                <li><a href="#">مشتریان</a></li>
+                <li><a href="#">قوانین</a></li>
+                <li><a href="#">خرید کالا</a></li>
+                <li><a href="#">درباره ما</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-box">
+              <span class="title py-3 d-block position-relative pb-4 text-info"
+                >تماس با ما</span
+              >
+              <ul class="p-0">
+                <li class="d-block w-100 py-2">
+                  <span><i class="bi bi-phone"></i>&nbsp; 9417 757 0936</span>
+                </li>
+                <li class="d-block w-100 py-2">
+                  <span
+                    ><i class="bi bi-geo-alt"></i>&nbsp; قائمشهر , میدان امام ,
+                    کوچه , اتحاد , پلاک 1 , آموزشگاه داده کاو وب
+                  </span>
+                </li>
+                <li class="d-block w-100 py-2">
+                  <span
+                    ><i class="bi bi-envelope-fill"></i>&nbsp;
+                    armanhassanzadeh23@gmail.com</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-box text-center">
+              <span
+                class="title title-center py-3 d-block position-relative pb-4"
+                >ما را دنبال کنید</span
+              >
+              <ul class="p-0 social-ul">
+                <li class="d-inline-block m-1">
+                  <a href="#" class="d-inline-block p-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                </li>
+                <li class="d-inline-block m-1">
+                  <a href="#" class="d-inline-block p-2"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                </li>
+                <li class="d-inline-block m-1">
+                  <a href="#" class="d-inline-block p-2"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-box">
+              <span class="title py-3 d-block position-relative pb-4 text-info"
+                >فروشگاه فروش سینک آرمان</span
+              >
+              <ul class="p-0">
+                <li class="d-block w-100 py-2">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و
+                  آینده شناخت فراوان جامعه و متخصصان را می طلبد
+                </li>
+                <li class="d-block w-100 py-2">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./jqury.js"></script>
+    <script src="./popper.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script src="./owl.carousel.min.js"></script>
+    <script src="./jquery.simple.timer.js"></script>
+    <script src="./jquery.elevatezoom.js"></script>
+    <script src="./jquery.fancybox.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
